@@ -1,0 +1,53 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.auth-form {
+  background: #ffffff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  background-color: #a90083;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+  background-color: #a90083;
+}
+
+.message-container {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 12px;
+}

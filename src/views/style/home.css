@@ -1,0 +1,26 @@
+.ant-tabs {
+  svg {
+  }
+  .ant-tabs-nav {
+    margin: 0 !important;
+    background: white;
+  }
+  .ant-tabs-tab {
+    color: var(--Colors-Neutral-Text-colorTextSecondary, #000000a6);
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: black !important;
+    svg {
+      color: black !important;
+    }
+  }
+  .ant-tabs-tab:hover {
+    color: purple !important;
+  }
+  .ant-tabs-nav-wrap {
+    margin-left: 20px;
+  }
+  .ant-tabs-ink-bar {
+    background: purple !important;
+  }
+}

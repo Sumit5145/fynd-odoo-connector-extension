@@ -1,0 +1,8 @@
+.application-container {
+  background-color: white;
+  border: #d9d9d9;
+  border-radius: 12px;
+  width: auto;
+  height: calc(100vh - 30px);
+  color: black;
+}
